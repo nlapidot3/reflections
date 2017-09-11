@@ -1,0 +1,11 @@
+###What happens when you initialize a repository? Why do you need to do it?
+A hidden .git directory is created in the directory in which you initialized the repository. The benefit
+of using it is that it starts storing meta data about the repository, including information about the
+commit history and the changes made.
+
+###How is the staging area different from the working directory and the repository? What value do you
+###think it offers?
+Staging area is an in-between environment that isn't permanently stored. It is where files that have been
+added from the working directory reside until you commit them to the repository. The advantage in this is
+that it allows you to specify which files you want to add to a single commit instead of forcing you to
+commit everything at once.
