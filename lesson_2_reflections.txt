@@ -9,3 +9,8 @@ Staging area is an in-between environment that isn't permanently stored. It is w
 added from the working directory reside until you commit them to the repository. The advantage in this is
 that it allows you to specify which files you want to add to a single commit instead of forcing you to
 commit everything at once.
+
+###How can you use the staging area to make sure you have one commit per logical change?
+You can use the "git diff --staged" command to compare the changes in the staging area to the most recent
+commit in the repository. This will list all of the differences, allowing you to track whether more than
+one logical change has been put in the staging area.
