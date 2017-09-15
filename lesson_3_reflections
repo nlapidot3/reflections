@@ -8,3 +8,6 @@ You may not be ready to make your commits public.
 Forks are essentially clones of other people's repositories and are used when you don't have permission to change the other person's repository directly. Clones copy the contents of a
 repository and can be used both locally in copying a repo from one location to another on your computer and remotely in copying a repo from GitHub. Branches are continuations of a repo
 that already exists and are not for copying purposes.
+
+###What is the benefit of having a copy of the last known state of the remote stored locally?
+It allows you to identify any conflicts between the different copies and merge them with full control of the output.
