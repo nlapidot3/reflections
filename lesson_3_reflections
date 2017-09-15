@@ -16,3 +16,6 @@ It allows you to identify any conflicts between the different copies and merge t
 Save files locally and maintain my own local history going back to a certain point. When I'm ready to save a new version of a file, I then replace the one in the group's shared folder.
 This workflow is easy to execute and navigate, but it requires using potentially lots of memory due to keeping so many old files. This also doesn't allow for an easy way to collaborate
 with others if multiple people are working on the file in their local machines simultaneously.
+
+###When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+when you are collaboarting and want to have others review your work and make sure they are aware of the changes you are making to the files all of you are collaborating on.
