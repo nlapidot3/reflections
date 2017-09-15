@@ -14,3 +14,24 @@ commit everything at once.
 You can use the "git diff --staged" command to compare the changes in the staging area to the most recent
 commit in the repository. This will list all of the differences, allowing you to track whether more than
 one logical change has been put in the staging area.
+
+###What are some situations when branches would be helpful in keeping your history organized? How would
+###branches help?
+Branches allow you to test out new features that you are not yet ready to commit to the master branch.
+You can work on those features while simultaneously updating the master branch and merge the two when
+you feel confident that your code is ready for production.
+
+###How do the diagrams help you visualize the branch structure?
+They help you determine which commits are part of the parent structure for each branch and which commits
+are unreachable from different branches. With this understanding, you can understand which features, bug
+fixes, etc. will be missing when you check out different commits.
+
+###What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+It combines the changes and additions made in each branch into one working copy while excluding lines of
+code that were purposely deleted. We represent in the diagram as two branches combining into one because
+the merged branch now points to both of the previous branches as parents.
+
+###What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Git automatically merges changes that do not have conflicts, which saves you time of trying to find the
+differences throughout the entire script. However, this has the downside of not alerting to those changes,
+which sometimes can be problematic if the additions end up causing issues in the future.
